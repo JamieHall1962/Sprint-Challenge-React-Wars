@@ -1,0 +1,31 @@
+
+
+  .char-list {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+.char-display-name {
+    width: 35%;
+    height: 150px;
+    background: #00274c;
+    color : #ffcb05;
+    margin: 25px;
+    padding: 25px;
+    text-align: left;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.char-display-data span {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+}

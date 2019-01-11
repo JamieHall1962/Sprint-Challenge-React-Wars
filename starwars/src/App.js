@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'; 
+import './components/StarWars.css'
+import {CharList } from  './components/CharList'
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       starwarsChars: []
+      
     };
   }
 
@@ -33,6 +36,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CharList starwarsChars= {this.state.starwarsChars} />
+
       </div>
     );
   }
